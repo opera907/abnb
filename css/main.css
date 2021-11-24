@@ -1,0 +1,27 @@
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 500;
+}
+
+.tit{
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.container{
+ display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+.container > div{
+  width: 80%;
+}
+.container textarea{
+  width: 100%;
+  height: calc((100vh - 300px)/2 );
+  background-color: #eee;
+}
+button{
+ background-color: rgb(179, 230, 213);
+
+}
