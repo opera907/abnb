@@ -1,0 +1,58 @@
+<!doctype html>
+<html class="no-js" lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>에어비앤비체 구현과제</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+  <main>
+    <div class="container">
+      <h1 class="tit centered">한글 난독화</h1>
+      <div class="input-area">
+        <textarea name="input-txt" id="input-txt" cols="30" rows="10"></textarea>
+        <div class="btn-area centered">
+          <button>변환하기</button>
+          <button>입력창 지우기</button>
+        </div>
+      </div>
+      <div class="output-area">
+        <p class="centered">변환된 문장:</p>
+        <textarea name="output-txt" id="output-txt" cols="30" rows="10"></textarea>
+        <!-- <button>클립보드에 복사</button> -->
+      </div>
+    </div>
+
+  </main>
+
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
